@@ -1,6 +1,6 @@
 
 :443 {
-    reverse_proxy lobe.dva.autos:9443
+    reverse_proxy https://lobe.dva.autos:9443
 }
 
 
