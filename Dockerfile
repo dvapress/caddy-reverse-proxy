@@ -1,2 +1,2 @@
 FROM caddy:alpine
-COPY ./Caddyfile /etc/caddy/Caddyfile
+COPY ./Caddyfile-lobe-on-99 /etc/caddy/Caddyfile
