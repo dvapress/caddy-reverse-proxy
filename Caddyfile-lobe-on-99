@@ -1,7 +1,11 @@
 
-lobed.dva.autos {
-    reverse_proxy https://lobe.dva.autos:9443
+
+# 将所有请求代理到 https://lobe.xxx.bbb:9443
+lobed.dva.autos {  
+    reverse_proxy https://lobe.dva.autos:9443 {
+        # 可选：关闭SSL验证（若目标使用自签名证书）
+        transport http {
+            tls_insecure_skip_verify
+        }
+    }
 }
-
-
-
