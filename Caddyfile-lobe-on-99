@@ -8,6 +8,8 @@ lobed.dva.autos {
             tls
             tls_insecure_skip_verify
         }
+        header_up Host lobe.dva.autos
+        header_up X-Forwarded-Proto https
     }
 }
 
