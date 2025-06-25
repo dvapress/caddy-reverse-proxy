@@ -1,4 +1,4 @@
-lobed.dva.autos:443 {
+:443 {
     reverse_proxy https://lobe.dva.autos:9443 {
         # 可选：关闭SSL验证（若目标使用自签名证书）
         transport http {
